@@ -6,62 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+        </style>
 </head>
 <body>
-    <div class="one">
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="links">
-                <a href="#">header link one</a>
-                <a href="#">header link two</a>   
-                <a href="#">header link three</a>             
-            </div>
+    <div id="one">
+        <div id="header">
+            <div class="logo">Jakequake</div>
+            <ul class="links">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Merch</a></li>   
+                <li><a href="#">Contact</a></li>             
+            </ul>
         </div>
-        <div class="website">
+        <div class="welcome">
             <div class="left">
-                <div class="headerTwo">This website is awesome</div>
-                <div class="text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-                <button class="buttonOne">Sign up</button>
+                <div class="headerTwo">Jake Gyllenhaal Is Awesome</div>
+                <p class="text">Especially that one time he was on John Mulaney and the Sack Lunch Bunch.</p>
+                <button class="buttonOne">Sign up!</button>
             </div>
-            <div class="mainImage">this is a placeholder for an image</div>
+            <img class="mainImage" src="images/jake.jpg">
         </div>
     </div>
-    <div class="two">
-        <div class="headerThree">Some random information.</div>
+    <div id="two">
+        <div class="headerThree">Photos of Jake</div>
         <div class="cardContainer">
             <div class="card">
-                <div class="image"></div>
-                <div class="cardText">this is some subtext under an illustration or image</div>
+                <img class="image" src="images/suit.png" alt="Jake Gyllenhaal wearing a light-pink suit at the Tonys">
+                <div class="cardText">Looking great, as always!</div>
             </div>
             <div class="card">
-                <div class="image"></div>
-                <div class="cardText">this is some subtext under an illustration or image</div>
+                <img class="image" src="images/lights.png" alt="Jake Gyllenhaal dancing, in front of rainbow lights, wearing an intricate blouse">
+                <div class="cardText">Here he is flexing that creative talent.</div>
             </div>
             <div class="card">
-                <div class="image"></div>
-                <div class="cardText">this is some subtext under an illustration or image</div>
+                <img class="image" src="images/interview.png" alt="Jake Gyllenhaal laughing merrily during an interview">
+                <div class="cardText">What an interview! I wish I were there.</div>
             </div>
             <div class="card">
-                <div class="image"></div>
-                <div class="cardText">this is some subtext under an illustration or image</div>
+                <img class="image" src="images/sourdough.png" alt="Jake Gyllenhaal holding a tub of sourdough starter">
+                <div class="cardText">I'm not sure what this is all about.</div>
             </div>
         </div>
     </div>
-    <div class="three">
-        <div class="quoteText">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space,
-                or maybe people will actually read it. Who knows? All I know is that it looks nice.
-        </div>
-        <div class="quoteSpeaker">-Thor, God of Thunder</div>
+    <div id="three">
+        <p class="quoteText">Ten years ago, twenty-six local farmers in twenty-six far-flung countries were each given a super piglet. This year I've 
+            traveled to each of the twenty-six farms to meet the Super Pigs and decide which one will be invited to the BEST SUPER PIG FEST in New York City, 
+            where they'll be unveiled to the world!</p>
+        <p class="quoteSpeaker">- Jake as "Dr. Johnny Wilcox" in Okja, 2017</p>
     </div>
     <div class="four">
         <div class="blue">
             <div class="call">
                 <div class="headerFour">Call to action! It's time!</div>
-                <div class="callText">Sign up for our product by clicking that button right over there!</div>
+                <p class="callText">Sign up for Jakequake by clicking that button right over there!</p>
             </div>
             <button class="buttonTwo">Sign up</button>
         </div>
     </div>
-    <div class="footer">Copyright &copy; The Odin Project 2021</div>
+    <div id="footer">Copyright &copy; The Odin Project 2021</div>
 </body>
 </html>
