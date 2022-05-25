@@ -28,6 +28,7 @@ li {
     padding: 80px 16px;
     gap: 20px;
     align-items: center;
+    justify-content: center;
 }
 
 .left {
